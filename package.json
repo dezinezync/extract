@@ -1,6 +1,6 @@
 {
   "name": "extract",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@postlight/mercury-parser": "^2.2.0",
+    "@babel/runtime": "^7.14.0",
+    "@babel/runtime-corejs2": "^7.2.0",
+    "@postlight/mercury-parser": "github:dezinezync/mercury-parser",
     "crypto-js": "^3.1.9-1",
     "express": "^4.16.4"
   },
